@@ -1,10 +1,9 @@
 body {
-  overflow: hidden;
   background-color: hsl(30, 38%, 92%);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 95vh;
+  min-height: 100vh;
 }
 
 main {
@@ -19,19 +18,20 @@ main {
 }
 
 .detail {
-  height: 410px;
   background-color: hsl(0, 0%, 100%);
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
-.header {
-  margin-top: 2rem;
+header {
+  margin-top: 1.5rem;
   margin-left: 2rem;
-  font-size: 14px;
+  font-size: 11px;
   font-family: 'Montserrat';
   font-weight: 500;
   color: hsl(228, 12%, 48%);
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
 }
 
 .title {
@@ -40,6 +40,7 @@ main {
   font-family: 'Fraunces';
   font-weight: 700;
   font-size: 28px;
+  width: 12rem;
 }
 
 .describe {
@@ -70,14 +71,13 @@ main {
   font-size: 28px;
 }
 
-.old-price {
+.visually-hidden:not(:focus):not(:active) {
   margin-top: 10px;
   margin-left: 15px;
   font-size: 14px;
   font-family: 'Montserrat';
   font-weight: 500;
   color: hsl(228, 12%, 48%);
-  text-decoration: line-through;
 }
 
 .button {
