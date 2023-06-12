@@ -18,9 +18,11 @@ main {
 }
 
 .detail {
+  height: auto;
   background-color: hsl(0, 0%, 100%);
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+  margin-bottom: 4px;
 }
 
 header {
@@ -43,18 +45,15 @@ header {
   width: 12rem;
 }
 
-.describe {
-  margin-top: 1rem;
+article {
   margin-left: 2rem;
   margin-right: 2rem;
   font-size: 14px;
   font-family: 'Montserrat';
   font-weight: 500;
   color: hsl(228, 12%, 48%);
-}
-
-.describe div {
-  margin-bottom: 0.2rem;
+  width: 15rem;
+  line-height: 1.6;
 }
 
 .prices {
