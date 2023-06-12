@@ -20,10 +20,12 @@
 </head>
 
 <body>
-  <div class="card">
-    <div class="img">
-      <img class="img-product" src="images/image-product-desktop.jpg" alt="product">
-    </div>
+  <main>
+    <picture>
+      <source media="(max-width: 768px)" srcset="images/image-product-mobile.jpg">
+      <source media="(min-width: 769px)" srcset="images/image-product-desktop.jpg">
+      <img class="img-product" src="images/image-product-desktop.jpg" alt="Product image">
+    </picture>
     <div class="detail">
       <div class="header">
         P E R F U M E
@@ -50,7 +52,7 @@
 
 
     </div>
-  </div>
+  </main>
 
 </body>
 
